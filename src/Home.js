@@ -4,7 +4,7 @@ const Home = (props) => {
   // console.log(props);
   setTimeout(() => {
     // props.history.push('/help');
-    props.history.goBack();
+    // props.history.goBack();
   }, 2000);
   return <h1>{props.title}</h1>;
 };
