@@ -2,7 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = (props) => {
+  console.log(props);
   return (
     <nav className='black'>
       <div className='nav-wrapper'>
